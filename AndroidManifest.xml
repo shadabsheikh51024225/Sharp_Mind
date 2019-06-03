@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mindshrper"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.mindshrper.LaunchActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.MainMenuActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.ModeActivity"
+            android:label="@string/title_activity_mode" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.LevelActivity"
+            android:label="@string/title_activity_level"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.InstructionActivity"
+            android:label="@string/title_activity_instruction"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.EasyActivity"
+            android:label="@string/title_activity_easy" 
+            android:screenOrientation="portrait">
+        </activity>
+        <service
+            android:name="com.example.mindshrper.PlayAudio"
+            android:enabled="true" >
+        </service>
+
+        <activity
+            android:name="com.example.mindshrper.Easy_SelectActivity"
+            android:label="@string/title_activity_easy__select"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.Score"
+            android:label="@string/title_activity_score"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.Level2Activity"
+            android:label="@string/title_activity_next"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.Level_2Activity"
+			android:screenOrientation="portrait"
+            android:label="@string/title_activity_level_2" >
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.Level2_SelectActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_level2__select" >
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.Level3Activity"
+            android:label="@string/title_activity_level3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.Level3_selectActivity"
+            android:label="@string/title_activity_level3_select"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.Level4Activity"
+            android:label="@string/title_activity_level4"
+             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.Level4_SelectActivity"
+            android:label="@string/title_activity_level4__select"
+             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.Level5Activity"
+            android:label="@string/title_activity_level5"
+             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.Level5_SelectActivity"
+            android:label="@string/title_activity_level5__select"
+             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.Level6Activity"
+            android:label="@string/title_activity_level6" 
+             android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.Level6_SelectActivity"
+            android:label="@string/title_activity_level6__select" 
+             android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.Level7Activity"
+            android:label="@string/title_activity_level7"
+             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.Level7_SelectActivity"
+            android:label="@string/title_activity_level7__select"
+             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.mindshrper.FinishActivity"
+            android:label="@string/title_activity_finish"
+             android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

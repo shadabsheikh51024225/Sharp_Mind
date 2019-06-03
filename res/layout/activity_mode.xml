@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mode"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ModeActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center|center_vertical"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/easy"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.00"
+            android:background="@drawable/btn"
+            android:text="@string/EASY"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:width="200dp" />
+
+        <Button
+            android:id="@+id/medium"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.00"
+            android:background="@drawable/btn"
+            android:text="@string/MEDIUM"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:width="200dp" />
+
+        <Button
+            android:id="@+id/hard"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.00"
+            android:background="@drawable/btn"
+            android:text="@string/HARD"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:width="200dp" />
+    </LinearLayout>
+
+</RelativeLayout>

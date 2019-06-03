@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/z1" >
+
+	<ScrollView
+	    android:id="@+id/scrollView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="352dp"
+	    android:layout_above="@+id/button1"
+	    android:layout_below="@+id/texthint"
+	    android:layout_x="-1dp"
+	    android:layout_y="42dp"
+	    android:paddingTop="30dp" >
+
+		<HorizontalScrollView
+		    android:id="@+id/horizontalScrollView1"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent" >
+
+			<TableLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:paddingTop="20dp" >
+
+			    <TableRow
+			        android:id="@+id/tableRow1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" >
+
+			        <LinearLayout
+			            android:id="@+id/ll1"
+			            android:layout_width="wrap_content"
+			            android:layout_height="match_parent"
+			            android:layout_marginTop="16dp"
+			            android:orientation="vertical" >
+			        </LinearLayout>
+
+			        <LinearLayout
+			            android:id="@+id/ll2"
+			            android:layout_width="140dp"
+			            android:layout_height="match_parent"
+			            android:layout_gravity="right"
+			            android:orientation="vertical"
+			            android:paddingTop="10dp" >
+
+			        </LinearLayout>
+			    </TableRow>
+			</TableLayout>
+
+		</HorizontalScrollView>
+
+	</ScrollView>
+
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignRight="@+id/texthint"
+	    android:onClick="next"
+	    android:text="Next" />
+
+	<TextView
+	    android:id="@+id/texthint"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="24dp"
+	    android:text="Level 7"
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textColor="@android:color/white" />
+
+</RelativeLayout>
